@@ -2,14 +2,15 @@ import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import { Button } from './Components/Button';
 import './index.css';
+import {FaGithub} from "react-icons/fa";
 
 import reportWebVitals from './reportWebVitals';
 
 function App(){
-  const [name, setName] = useState("Raj")
+  const [name, setName] = useState("Add")
   return (
     <div className= "App">
-      <Button buttonStyle="btn--second" buttonSize="btn--large" name={name}>Click Me</Button>
+      <Button buttonStyle="btn--second" buttonSize="btn--large" ><FaGithub/>{name}</Button>
     </div>
   )
 }
