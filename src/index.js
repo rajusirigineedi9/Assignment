@@ -2,15 +2,15 @@ import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import { Button } from './Components/Button';
 import './index.css';
-import {FaGithub} from "react-icons/fa";
+import {FaEnvelope} from "react-icons/fa";
 
 import reportWebVitals from './reportWebVitals';
 
 function App(){
-  const [name, setName] = useState("Add")
+  const [name, setName] = useState("Send mail")
   return (
     <div className= "App">
-      <Button buttonStyle="btn--second" buttonSize="btn--large" ><FaGithub/>{name}</Button>
+      <Button buttonStyle="btn--third" buttonSize="btn--large" ><FaEnvelope/>{name}</Button>
     </div>
   )
 }

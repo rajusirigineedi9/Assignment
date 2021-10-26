@@ -9,6 +9,7 @@
 .btn--second {
     background-color :cadetblue;
     color :black;
+    border-radius: 8px;
     
 }
 
@@ -16,6 +17,7 @@
     background-color :chartreuse;
     color :black;
     border: none;
+    border-radius: 8px;
 }
 
 
