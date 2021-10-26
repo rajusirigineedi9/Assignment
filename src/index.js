@@ -1,8 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
+import { Button } from './Components/Button';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+
+function App(){
+  const [name, setName] = useState("Raj")
+  return (
+    <div className= "App">
+      <Button buttonStyle="btn--second" buttonSize="btn--large" name={name}>Click Me</Button>
+    </div>
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>

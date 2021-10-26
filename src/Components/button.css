@@ -1,0 +1,32 @@
+/*button colors */
+
+.btn--first {
+    background-color:blue;
+    color:white;
+    border: none;
+}
+
+.btn--second {
+    background-color :cadetblue;
+    color :black;
+    
+}
+
+.btn--third {
+    background-color :chartreuse;
+    color :black;
+    border: none;
+}
+
+
+/*button size changes */
+
+.btn--medium {
+padding: 10px 20px;
+font-size: 18px;
+}
+
+.btn--large{
+padding: 15px 30px;
+font-size: 22px;
+}
